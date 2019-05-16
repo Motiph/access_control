@@ -2,7 +2,7 @@ from .base import *
 
 DEBUG = True
 
-ALLOWED_HOST = ['192.168.250.218', 'bluesage.tk']
+ALLOWED_HOST = ['192.168.250.218', 'bluesage.tk', 'bssmxdev.simple-url.com']
 
 DATABASES = {
     'default': {
