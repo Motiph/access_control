@@ -1,0 +1,5 @@
+*.pyc
+*.sqlite3
+access_control/settings/local.py
+control/migrations/*
+.vscode
