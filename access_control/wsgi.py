@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'settings.access_control.prod')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'access_control.settings.prod')
 
 application = get_wsgi_application()
